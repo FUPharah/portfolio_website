@@ -75,7 +75,7 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
+
 }
 `;
 
@@ -102,6 +102,7 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
+border: 1px solid #d8bfbf;
 display: flex;
 justify-content: space-around;
 padding: 2rem;

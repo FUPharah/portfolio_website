@@ -15,8 +15,8 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 10px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
 	transition: .3s ease;
@@ -65,7 +65,7 @@ export const CompanyContainer = styled.div`
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
-	
+
 
 	@media ${props => props.theme.breakpoints.md}{
 		flex-direction: column;
@@ -139,6 +139,7 @@ export const LinkList = styled.ul`
 export const LinkColumn = styled.div`
 	display: flex;
 	flex-direction: column;
+  text-align: center;
 	max-width: 220px;
 	width: 100%;
 `
