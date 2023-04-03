@@ -1,0 +1,16 @@
+.background-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.BgAnimation__wrapper {
+  position: fixed;
+  right: 200px;
+  width: 30%;
+  height: 35%;
+  z-index: -1; /* This will ensure the animation stays behind your page content */
+}

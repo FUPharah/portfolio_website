@@ -1,8 +1,8 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Whatsapp</LinkTitle>
-          <LinkItem href="#">+90 533 311 18 11</LinkItem>
+          <LinkItem href="tel: +90 533 311 18 11">+90 533 311 18 11</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -23,9 +23,18 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Learning is a never ending process</Slogan>
+          <Slogan>Learning is a never ending process.
+            <br />
+          Building better web experiences, one project at a time.
+          </Slogan>
         </CompanyContainer>
-        </SocialIconsContainer>
+        <SocialIcons href="https://github.com/FUPharah">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com/in/can-ozben/">
+          <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      </SocialIconsContainer>
     </FooterWrapper>
   );
 };

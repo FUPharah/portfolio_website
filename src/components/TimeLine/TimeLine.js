@@ -44,7 +44,15 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a web developer with a background in business and education. I am passionate about creating user-friendly and visually appealing web applications. I am currently seeking a full-time position as a web developer.
+      Hello and welcome to my portfolio about me page!
+      <br />
+      I am a hardworking and passionate web developer with strong organizational skills and attention to detail. With over 400 hours of coding experience and expertise in programming languages such as Ruby on Rails, JavaScript, and HTML & CSS, I am confident in my ability to deliver professional results and contribute to the success of any web development project.
+      During my time at Le Wagon Fullstack Web Developer bootcamp, I developed a solid foundation in a range of programming languages, frameworks, and tools. I also learned the importance of troubleshooting skills in web development and developed strategies for identifying and resolving problems quickly and efficiently.
+      In addition to my technical expertise, I have experience in English translation and sales, which have helped me develop excellent communication and interpersonal skills. I am committed to explaining technical concepts and solutions clearly and effectively to both technical and non-technical stakeholders, whether through analogies, diagrams, or other strategies.
+      I am eager to work collaboratively with other team members and take on new challenges and responsibilities. I value effective communication and believe that it is key to project success. I am committed to delivering professional results and achieving success in all my endeavors.
+      Please take a moment to browse through my portfolio and see some of the web development projects I have completed.
+      <br />
+      If you have any questions or would like to discuss a potential project, please don't hesitate to get in touch!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>
