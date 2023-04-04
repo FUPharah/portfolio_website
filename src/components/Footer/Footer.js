@@ -28,10 +28,10 @@ const Footer = () => {
           Building better web experiences, one project at a time.
           </Slogan>
         </CompanyContainer>
-        <SocialIcons href="https://github.com/FUPharah">
+        <SocialIcons href="https://github.com/FUPharah" target='_blank'>
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/can-ozben/">
+        <SocialIcons href="https://www.linkedin.com/in/can-ozben/" target='_blank'>
           <AiFillLinkedin size="3rem" />
       </SocialIcons>
       </SocialIconsContainer>
