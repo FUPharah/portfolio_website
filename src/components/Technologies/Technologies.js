@@ -20,7 +20,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Ruby on Rails and PostgreSQL.
+            Ruby on Rails, APIs and PostgreSQL.
           </ListParagraph>
         </ListContainer>
       </ListItem>
