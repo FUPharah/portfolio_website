@@ -17,6 +17,16 @@ export const projects = [
     visit: 'https://fleur-fairy.herokuapp.com/',
     id: 1,
   },
+
+  {
+    title: 'Summarizer',
+    description:"This tool is a text summarizer that uses OpenAI GPT-4 to summarize your text for you.",
+    image: '/images/summarizer.png',
+    tags: ['CSS','|','JavaScript','|','React','|',"GPT-4",'|', 'Redux'],
+    source: 'https://github.com/FUPharah/Gpt4summarizer/tree/master/gptsum/gptsummarizer',
+    visit: 'https://644535280e762e30b0928fe4--peaceful-longma-40feaa.netlify.app/',
+    id: 2,
+  },
 ];
 
 export const TimeLineData = [
